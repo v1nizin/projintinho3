@@ -1,0 +1,32 @@
+<script setup>
+import HeaderComp from "@/components/HeaderComp.vue";
+import ElencoComp from "@/components/ElencoComp.vue";
+</script>
+<template>
+    <div>
+        <HeaderComp/>
+    </div>
+    
+    <div class="infofilmes">
+        <img class = "imgcorra" src="@/assets/img/corra.jpg" alt="">
+        <div class="infor">
+            <p class="FilmesDesc"><h3>Sinopse: </h3> Chris é um jovem fotógrafo negro que está prestes a conhecer os pais de Rose, sua namorada caucasiana. 
+             Com o tempo, ele percebe que a família dela esconde algo muito perturbador. </p>
+            <h3>Gênero: Terror, Mistério ,Suspense</h3>
+            <h3>Diretor: Jordan Peele </h3>
+            <h3>Roteiro: Jordan Peele</h3>  
+            <h3>Data de lançamento: 18 de maio de 2017 (Brasil)</h3>
+            <h3>Avaliação Do IMDb: 7,7</h3>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="Titulo_Elenco">Elenco:</h1>
+        <ElencoComp></ElencoComp>
+    </div>
+
+    
+
+    
+
+</template>

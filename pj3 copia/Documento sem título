@@ -1,0 +1,12 @@
+<script>
+export default {};
+</script>
+<template>
+    <div class="elenco">
+    <router-link to=""><img src="@/assets/img/Daniel.jpg" alt=""></router-link>
+    <router-link to=""><img src="@/assets/img/Allison.jpg" alt=""></router-link>
+    <router-link to=""><img src="@/assets/img/Lakeith.jpg" alt=""></router-link>
+    <router-link to=""><img src="@/assets/img/Lil.jpg" alt=""></router-link>
+    <router-link to=""><img src="@/assets/img/Catherine.jpg" alt=""></router-link>
+  </div>
+</template>
